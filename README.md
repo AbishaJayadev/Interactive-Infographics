@@ -22,6 +22,7 @@ Scrollbar: I styled the scrollbar to match the overall space theme with a gradie
 # **Running the webpage:**
 • Download and unzip the folder, the folder contains the index.html, style.css,
 script.js code files and also the image folder with images.
+
 • Now open the index.html file in a browser to view the webpage.
 
 # **User Guide:**
