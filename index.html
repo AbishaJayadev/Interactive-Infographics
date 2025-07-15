@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Exploration Timeline with Popup Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="floating-emojis-container"></div>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="title">🚀 Space Exploration Timeline</h1>
+            <p class="subtitle"><b>~🛰️Journey through humanity's greatest achievements in space exploration~</b></p>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="controls">
+            <input type="text" id="search" placeholder="Search space events..." class="search-box">
+            <div class="filters">
+                <button class="filter-btn active" data-category="all"> All Events</button>
+                <button class="filter-btn" data-category="satellite"> Satellites</button>
+                <button class="filter-btn" data-category="human"> Human Flight</button>
+                <button class="filter-btn" data-category="planetary"> Planetary</button>
+                <button class="filter-btn" data-category="technology"> Technology</button>
+            </div>
+        </div>
+
+        <div class="timeline-container">
+            <div class="timeline-line"></div>
+            <div id="timeline" class="timeline"></div>
+        </div>
+    </main>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <button class="close-btn">&times;</button>
+            <div class="popup-header">
+                <h2 class="popup-title"></h2>
+                <p class="popup-date"></p>
+            </div>
+            <div class="popup-body">
+                <p class="popup-desc"></p>
+                <div class="popup-details">
+                    <div class="detail-section">
+                        <h3 class="mission-heading"> Mission Details</h3>
+                        <div class="mission-info"></div>
+                    </div>
+                    <div class="detail-section">
+                        <h3 class="achievements-heading"> Key Achievements</h3>
+                        <ul class="achievements"></ul>
+                    </div>
+                    <div class="detail-section">
+                        <h3 class="facts-heading"> Fun Facts</h3>
+                        <ul class="facts"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 Space Exploration Timeline - Project by Abisha J</p>
+        <br>
+        <p>~Made with 💗 for Space Lovers~</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
