@@ -1,7 +1,7 @@
 # Interactive-Infographics
  **Topic:** Space Exploration timeline
  
-#**Cool stuffs in the webpage:**
+# **Cool stuffs in the webpage:**
 • Responsive design: I made the webpage to be good in responsiveness like scrolling,
 using buttons also the screen sizes according to the device size.
 • Events: The webpage reads the events from script.js and then creates the event cards
@@ -19,12 +19,12 @@ floating manner using CSS and JavaScript to imitate the space and make the webpa
 more visually attractive.
 Scrollbar: I styled the scrollbar to match the overall space theme with a gradient
 
-#**Running the webpage:**
+# **Running the webpage:**
 • Download and unzip the folder, the folder contains the index.html, style.css,
 script.js code files and also the image folder with images.
 • Now open the index.html file in a browser to view the webpage.
 
-#**User Guide:**
+# **User Guide:**
 • Open The webpage: Just open index.html in browser
 • Explore by Scrolling: Scroll down the page to see the events in order. They will
 appear as you scroll.
